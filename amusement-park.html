@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Amusement Park</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Rides Are For You?</h1>
+
+      <p>Some rides require you  to be a certain age and height to participate. Enter some information about yourself, your age and height, and see which amusement rides are available for you!</p>
+
+      <form id="info">
+        <label for="age">Age:</label>
+        <input id="age" type="text">
+        <label for="height">Height (cm):</label>
+        <input id="height" type="text">
+        <button type="submit" class="btn">Show me my options!</button>
+      </form>
+
+
+      <div class="result">
+          <div id="mellowyellow">
+            <p>You can ride on the Mellow Yellow!</p>
+          </div>
+          <div id="missiontomars">
+            <p>You can go on the Mission to Mars!</p>
+          </div>
+          <div id="screamer">
+            <p>You can ride on the Screamer!</p>
+          </div>
+          <div id="thundermountain">
+            <p>You can ride the Thunder Mountain!</p>
+          </div>
+          <div id="palerider">
+            <p>You can ride on the Pale Rider!</p>
+          </div>
+          <div id="sorry">
+            <p>Sorry, but you either don't meet our age, or our height requirements, to participate in any of our other rides.</p>
+          </div>
+    </div>
+  </body>
+</html>
